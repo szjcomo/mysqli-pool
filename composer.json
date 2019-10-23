@@ -1,0 +1,22 @@
+{
+    "name": "szjcomo/mysqli-pool",
+    "description": "基于easyswoole的mysql线程池的实现",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "szjcomo",
+            "email": "814655481@qq.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.1.0",
+        "szjcomo/phpmysqli": "^0.0.1",
+        "easyswoole/component": "^1.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "szjcomo\\mysqliPool\\": "src/"
+        }
+    }
+}
