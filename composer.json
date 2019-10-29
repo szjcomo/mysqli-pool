@@ -11,7 +11,7 @@
     ],
     "require": {
         "php": ">=7.1.0",
-        "szjcomo/phpmysqli": "^0.0.1",
+        "szjcomo/phpmysqli": "^0.0.5",
         "easyswoole/component": "^1.5"
     },
     "autoload": {
