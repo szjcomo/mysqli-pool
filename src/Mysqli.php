@@ -26,7 +26,9 @@ class Mysqli extends comoMysqli implements ObjectInterface
 	 */
     function gc()
     {
-        
+        if (isset($this->coroutineMysqlClient) && $this->coroutineMysqlClient->connected) {
+            $this->coroutineMysqlClient->close();
+        }
     }
     /**
      * [objectRestore 使用后,free的时候会执行]
